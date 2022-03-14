@@ -1,0 +1,155 @@
+/* Variables */
+$color1: red;
+$color2: black;
+$color3: gold ;
+$color4: silver;
+$botonAncho1: 170px;
+$botonAlto1: 50px;
+
+/* Barra de navegacion */
+
+.navbar{
+    display:flex ;
+}
+
+.navbarColor{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.navbar-brand a{
+    text-align: center;
+    color: $color3;
+}
+
+.nav-item{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: $botonAncho1;
+    height: $botonAlto1;
+}
+.navbar-nav li a{
+    color: white !important;
+}
+
+
+.navbar-toggler{
+    height: 65px;
+    width: 50px;
+    margin-right: 10px;
+    outline: none !important;
+    border: none !important;
+    background-image: url(/imagenes/IconEspectaculares.png);
+    justify-content: center;
+}
+.navbarButton button{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+nav button{
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu{
+    background-color: black !important;
+    border-style: ridge;
+}
+/* Encabezado */
+
+.presentacionTexto{
+    
+    background: none;
+    text-decoration: none;
+    color: white;
+    border: none;
+    transition: all 2s;
+}
+.presentacionTexto:hover{
+    font-weight: bolder;
+}
+.presentacionTexto2{
+    display: grid;
+    
+    text-justify: center;
+    grid-template-columns: 33% 33%;
+}
+.presentacionTexto1{
+    display: grid;
+    grid-template-columns: 33% 33%;
+    justify-content: center;
+}
+.presentacionTexto3{
+    display: grid;
+    grid-template-columns: 33% 33%;
+    justify-content: center;
+}
+
+.presentacion i{
+    color: $color3;
+    font-size: larger;
+}
+.encabezado__titulo{
+    width: 100%;
+    text-align: center;
+    height: 70px ;
+    background-color: $color2;
+    color: $color3;
+    
+    font-family: 'Lora', serif ;
+    
+    }
+
+    /* Tabla de presentacion */
+.tablaPresentacion{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.tablaPresentacion__tabla{
+    background-color: rgba(0, 0, 0,);
+    color: $color3;
+    font-family: 'Open Sans Condensed', sans-serif
+    ;
+    border-color: $color1;
+    border-left: 20px $color1;
+    
+    border-right: 20px $color1;
+
+    border-style: ridge}
+
+.tablaPresentacion__tabla th{
+    color: $color3;
+}
+.tablaPresentacion__tabla tr{
+    color: $color4;
+}
+
+/* Contactos */
+.contactos__wathsapp{
+    padding-left: 35px;
+    background-image: url(/imagenes/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.contactos__facebook{
+    width: 300px;
+    padding-left: 35px;
+    background-image: url(/imagenes/facebook.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.contactos__email{
+    padding-left: 35px;
+    background-image: url(/imagenes/gmail.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.contacto{
+    margin-bottom: 10px;
+}

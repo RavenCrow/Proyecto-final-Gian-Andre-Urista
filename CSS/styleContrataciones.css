@@ -1,0 +1,28 @@
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.formulario h4 {
+  color: red;
+}
+
+.formulario__box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 15px #7e2525;
+  border-style: ridge;
+  width: 25em;
+  background-color: black;
+  border-radius: 5%;
+}

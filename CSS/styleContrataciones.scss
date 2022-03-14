@@ -1,0 +1,27 @@
+$color1: red;
+$color2: black;
+$color3: gold ;
+$color4: silver;
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.formulario h4{
+    color: $color1;
+    }
+.formulario__box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 15px rgb(126, 37, 37);
+    border-style: ridge;
+    width: 25em;
+    background-color: black;
+    border-radius: 5% ;
+}

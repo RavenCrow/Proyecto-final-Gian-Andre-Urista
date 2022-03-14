@@ -1,0 +1,400 @@
+
+/* estilos importados */
+@import url(/CSS/style2.css);
+@import url(/CSS/styleContrataciones.css);
+
+
+*{padding: 0%;
+margin: 0%;}
+        /* Mobile Styles */
+        @media only screen and (max-width: 400px) {
+        body {
+           
+        }
+      }
+      /* Tablet Styles */
+      @media only screen and (min-width: 401px) and (max-width: 960px) {
+        body {
+           
+        }
+      }
+      /* Desktop Styles */
+      @media only screen and (min-width: 961px) {
+        body {
+           
+        }
+      }
+      
+        
+        
+        h2{color: red; background-color: black ;
+                font-family: 'Open Sans Condensed', sans-serif;
+        border: gold 10px;
+        border-style: ridge;
+        font-variant: small-caps;
+        text-decoration: underline ;}
+
+        body{   
+                background-image:  url(/imagenes/pexels-picjumbocom-196652.jpg) ;
+                background-position: center;
+                background-size: cover ;
+                }
+        header{
+                text-align: center;
+                
+                background-size: 100%;
+
+                }
+        .encabezado{
+                width: 100%; ;
+                height: auto;
+                background-image: url(/imagenes/telon.jpg);
+                background-position: center;
+                background-size: cover;
+                font-variant: small-caps;
+                
+                
+        }
+
+        
+        /* SubNavegacion Galeria */
+        nav .btn{
+                
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-variant: small-caps;
+                font-size:20px ;
+                display: inline-block;
+                flex: none;
+                flex-direction: row;
+                width: 170px;
+                height: 50px;
+                background-color: transparent;
+                
+                border-style: ridge;
+                   
+        }
+        nav .btn:hover, .nav4:hover{
+                
+                transform: skewY(0deg);
+                border-style: ridge;
+                border-radius: 25%;
+                background-image: linear-gradient(to bottom, black, silver);
+                color: gold;}
+        
+        .nav-item:hover{
+                
+                transform: skewY(0deg);
+                
+                background-image: linear-gradient(to bottom, black, silver);
+                color: gold !important;
+                border-radius: 20%;
+        }
+
+
+        
+
+        
+
+        /* Subnavegacion Galeria fin */
+ 
+
+        
+
+        .navegacion ul{
+                list-style: none;
+        }
+        .eventos{text-align: center;
+                list-style-position: inside;
+                background-color: rgb(0, 0, 0, 0.5)}
+        .eventButton {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 75%;
+                border: 5px solid rgb(85, 21, 21);
+                border-style: ridge;
+                
+                transition: all 1s;
+        }
+
+        .contratame{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                position: relative;
+                bottom: 100%;
+        }
+        .contratame button{
+                width: 200px;
+                height: 50px;
+                border-radius: 45%;
+                background-color: black;
+                border: 7.5px red;
+                border-style: ridge;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-variant: small-caps;
+                font-size: larger;
+                transition: all 1s;
+                
+        }
+        .contratame a{
+                color: white;
+                font-weight: 900;
+                width: 200px;
+                height: 50px;
+                border-radius: 45%;
+        }
+
+        .contratame button:hover, .contratame a:hover{
+                width: 150px;
+                height:45px ;
+                background-color: gold;
+                color: black;
+        }
+
+        .eventButton1{
+
+                width: 100%;
+
+                height: 100%;
+
+                background-image: url(/imagenes/GrupoMusicalEspectaculares.jpg);
+
+                background-size: cover;
+
+                background-repeat: no-repeat 
+
+        }
+
+
+
+        .eventButton3{
+
+                width: 100%;
+
+                height: 100%;
+
+                background-image: url(/imagenes/ConceptoDJ.jpg);
+
+                background-size: cover;
+
+                background-repeat: no-repeat 
+
+        }
+
+        .eventButton2{
+
+                width: 100%;
+
+                height: 100%;
+
+                background-image: url(/imagenes/BigBandShow.jpg);
+
+                background-size: cover;
+
+                background-repeat: no-repeat 
+                }
+        
+        
+
+        .eventos button:hover, .eventButton:hover{
+                
+                
+        }
+        .eventGrid{
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+        }
+
+        .eventOpcion{
+                display: flex;
+                justify-items: center;}
+
+        .eventos iframe{
+                border:5px red;
+                margin: 20px;
+                border-style: ridge   ;
+                height: 400px;
+                width: 500px;
+        }
+        .eventos p{
+                margin: 20px;
+                border: 5px red;
+                border-style: ridge;
+                
+                
+        }
+
+        .cantantes{
+
+        height: 500px ;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.5)
+        }
+        
+        /* .cantGrid{
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+        } */
+
+        .cantOpcion{
+                height: 400px;
+                width: auto;
+                position: relative;
+                left: 25%;
+                top: 20%;
+                margin-top: 100px;
+        }
+        .cantButton button{
+                position: relative ;
+                width: 500px;
+                height: 300px;
+                border: 5px solid rgb(85, 21, 21);
+                border-style: ridge;
+                transition: 1s;
+        }
+        .cantButton{
+                position: relative ;
+                width: 500px;
+                height: 300px;
+                border: 5px solid rgb(85, 21, 21);
+                border-style: ridge;
+                transition: 1s;
+        }
+
+        .cantButton:hover{
+                z-index: 8 !important;
+           
+        } 
+
+        .cantButton button:hover, .cantButton__Text:hover{
+                z-index: 8;
+                ;
+        }
+        .cantButton__Text{
+                height: 50px;
+                width: 65%;
+                color: white;
+                background-color: black;
+                position: relative;
+                border: 10px red;
+                border-style: ridge;
+                transform: rotate(90deg);
+                right: 35%;
+                ;
+                 )
+        }
+        .cantButton1{
+                z-index: 1;
+                transform: translateX(40px);
+                
+                
+        }
+        .cantButton2{
+                z-index: 2;
+                
+                transform: translate(80px, -300px);
+                
+        }
+        .cantButton3{
+                z-index: 3;
+                transform: translate(120px, -600px);
+        }
+        .cantButton4{
+                z-index:4 ;
+                transform: translate(160px, -900px);
+        }
+        .cantButton5{
+                z-index:5 ;
+                transform: translate(200px, -1200px);
+        }
+        .cantButton6{
+                z-index: 6;
+                transform: translate(240px, -1500px);
+        }
+        .cantButton1 button{
+                background-image: url(/imagenes/Baterista.jpg);
+                background-size: cover;
+        }
+        .cantButton2 button{
+                background-image: url(/imagenes/Cantante.jpg);
+                background-size: cover;
+        }
+        .cantButton3 button{
+                background-image: url(/imagenes/Guitarrista.jpg);
+                background-size: cover;
+        }
+        .cantButton4 button{
+                background-image: url(/imagenes/Pianista.jpg);
+                background-size: cover;
+        }
+        .cantButton5 button{
+                background-image: url(/imagenes/Saxofonista.jpg);
+                background-size: cover;
+        }
+        .cantButton6 button{
+                background-image: url(/imagenes/Violinista.jpg);
+                background-size: cover;
+        }
+        /* Pie de pagina */
+        footer{
+                width: 100%;
+                border-top: 10px red;
+                border-bottom:10px red ;
+                border-top-style: ridge;
+                border-bottom-style: ridge;
+                height: auto;
+                background-color: black;
+                color: red;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                bottom: 0;
+                padding-bottom: 20px;
+
+                
+                
+        }
+
+        
+        footer li{
+                list-style: none;
+        }
+        
+        footer div{
+                width: 200px;
+                height: 150px ;
+        }
+        footer a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-variant: small-caps;
+                font-size:20px
+        }
+        footer h3{
+                font-family:sans-serif
+        }
+
+        footer li{color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-variant: small-caps;
+                font-size:20px}
+
+        
+                
+                
+        .cantantes{text-align: center;
+                list-style-position: inside;
+                background-color: rgb(0, 0, 0, 0.5)
+        }
+        
+        
